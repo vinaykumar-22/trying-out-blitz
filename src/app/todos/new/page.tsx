@@ -18,7 +18,7 @@ export default function Page() {
         // padding: 10px;
       }}
     >
-      <h1>Create New Project</h1>
+      <h1>Create Task</h1>
       <Suspense fallback={<div>Loading...</div>}>
         <New__ModelName />
       </Suspense>
