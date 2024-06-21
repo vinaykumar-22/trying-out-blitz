@@ -14,6 +14,7 @@ export function LogoutButton() {
         onClick={async () => {
           await logoutMutation()
           router.refresh()
+          router.push("/")
         }}
       >
         Logout
